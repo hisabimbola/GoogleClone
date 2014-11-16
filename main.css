@@ -125,11 +125,35 @@ main {
 	position: relative;
 }
 
+input {
+	display: block;
+	margin: 10px auto;
+	width: 98%;
+	height: 25px;
+	z-index: 20;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input:hover {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+	border: 1px solid rgba(14, 90, 200, 1);
+	width: 96.39%;
+	height: 20px;
+	z-index: 20;
+	padding-left: 10px;
+	padding-top: 7px;
+	font-size: 20px;
+	outline: 0;
+}
+
 #mic {
 	width: 4%;
 	z-index: 9;
 	position: absolute;
-	bottom: 2%;
+	bottom: 4%;
 	right: 1%;
 	opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
@@ -137,7 +161,7 @@ main {
 
 #mic:hover {
 	opacity: 1;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
+  	filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 #mic + a {
@@ -149,7 +173,7 @@ main {
 }
 
 #mic + a > span {
-    z-index:10;
+  	z-index:10;
 	display:none;
 }
 #mic:hover + a > span {
@@ -181,29 +205,6 @@ main {
 #mic:hover + a > span {       
     box-shadow: 0px 0px 1px 1px #B8B8B8;
 }
-
-input {
-	display: block;
-	margin: 10px auto;
-	width: 98%;
-	height: 25px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-input:hover {
-	border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-input:focus {
-	border: 1px solid rgba(14, 90, 200, 1);
-	width: 96.39%;
-	height: 20px;
-	padding-left: 10px;
-	padding-top: 7px;
-	font-size: 20px;
-	outline: 0;
-}
-
 button {
 	margin: 7px 5px;
 	padding: 5px 10px;
