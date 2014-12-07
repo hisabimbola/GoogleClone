@@ -70,7 +70,7 @@ header img:hover {
 }
 
 header ul li:last-child {
-	background-color: hsl(220, 100%, 65%);
+	background-color: #4585F3;
 	padding: 8px 16px;
 	border-radius: 4%;
 	color: #fff;
