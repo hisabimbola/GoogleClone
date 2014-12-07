@@ -70,7 +70,7 @@ header img:hover {
 }
 
 header ul li:last-child {
-	background-color: hsl(220, 100%, 65%);
+	background-color: #4585F3;
 	padding: 8px 16px;
 	border-radius: 4%;
 	color: #fff;
@@ -80,6 +80,7 @@ header ul li:last-child {
 
 header ul li:last-child:hover {
 	box-shadow: 0 1px rgba(29, 24, 196, 0.3);
+
 }
 
 .first-top-nav-list::before {
